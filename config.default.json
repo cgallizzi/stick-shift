@@ -1,0 +1,44 @@
+{
+  "output": "xbox",
+  "toggle_key": "F8",
+  "start_active": false,
+  "block_all_input_when_active": true,
+  "tick_hz": 500,
+  "wheel_pulse_ms": 40,
+
+  "overlay": { "enabled": true, "toggle_key": "F7", "position": "top-left",
+               "scale": 1.0, "alpha": 0.95 },
+
+  "menu_mode": { "auto_when_cursor_visible": true, "hold_key": "MOUSE5" },
+
+  "left_stick": { "up": "W", "down": "S", "left": "A", "right": "D",
+                  "walk_key": "LALT", "walk_scale": 0.5 },
+  "dpad": { "up": "UP", "down": "DOWN", "left": "LEFT", "right": "RIGHT" },
+
+  "buttons": {
+    "A": ["SPACE"],
+    "B": ["C", "LCTRL"],
+    "X": ["R", "F"],
+    "Y": ["1", "2", "WHEELUP", "WHEELDOWN"],
+    "LB": ["Q"],
+    "RB": ["E", "G"],
+    "LS": ["LSHIFT"],
+    "RS": ["V", "MOUSE3"],
+    "START": ["ESC"],
+    "BACK": ["TAB"],
+    "GUIDE": []
+  },
+  "triggers": { "LT": ["MOUSE2"], "RT": ["MOUSE1"] },
+
+  "right_stick": {
+    "mouse_dpi": 800,
+    "cm_per_360": 35,
+    "max_turn_deg_s": 360,
+    "pitch_ratio": 1.0,
+    "game_deadzone": 0.10,
+    "game_curve_exponent": 1.0,
+    "smoothing_ms": 15,
+    "carryover_max_deg": 45,
+    "invert_y": false
+  }
+}

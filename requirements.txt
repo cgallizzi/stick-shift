@@ -1,0 +1,2 @@
+# Output: vgamepad wraps the ViGEmBus driver (virtual Xbox 360 / DS4 pad).
+vgamepad>=0.1.0

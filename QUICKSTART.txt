@@ -1,0 +1,42 @@
+STICK SHIFT - your mouse, shifted into a thumbstick
+====================================================
+
+Keyboard + mouse -> a virtual Xbox (or PlayStation) controller.
+No Python needed. Copy this folder anywhere and run it.
+
+FIRST RUN ON A NEW PC
+  1. Double-click StickShift.exe.
+  2. If it says the ViGEmBus driver is missing, press Enter. Windows asks
+     for admin once, and then it's installed for good.
+     (Or run ViGEmBusSetup_x64.msi yourself.)
+  3. Recommended: Settings > Bluetooth & devices > Mouse > Additional mouse
+     settings > turn OFF "Enhance pointer precision".
+
+PLAYING
+  F8   controller mode on/off (high beep = on, low beep = off)
+  F7   show/hide the overlay
+  Run games borderless or windowed so the overlay shows on top.
+
+  WASD           left stick          Mouse        right stick
+  Arrow keys     d-pad               L/R click    LT / RT
+  Space A   C/Ctrl B   R/F X   1/2/wheel Y   Q LB   E/G RB
+  Shift LS (sprint)   V/middle click RS (melee)   Esc START   Tab VIEW
+  Left Alt       walk (half stick)
+  Mouse button 5 hold for a normal mouse (menus)
+
+  When a menu shows the Windows cursor, the mouse turns back into a normal
+  mouse automatically.
+
+TUNING FOR A GAME (once per game, about 2 minutes)
+  Double-click Calibrate.bat and follow the prompts. It measures how fast
+  the game turns at full stick and saves the result to config.json.
+  Then open config.json and set mouse_dpi and cm_per_360 to your usual
+  PC sensitivity.
+
+QUITTING
+  Turn controller mode OFF (F8), then close the window.
+  Closing the window always releases the keyboard and mouse.
+
+ONLINE GAMES
+  Only in titles where you're cleared to test, or in private/custom matches.
+  Anti-cheat in some multiplayer games flags controller emulation.
