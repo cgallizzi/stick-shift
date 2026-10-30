@@ -1,3 +1,5 @@
+<img src="logo.png" width="96" align="right" alt="Stick Shift logo">
+
 # Stick Shift
 
 *Your mouse, shifted into a thumbstick.*
@@ -5,6 +7,18 @@
 Keyboard + mouse → a virtual Xbox 360 or DualShock 4 controller, toggled with **F8**.
 WASD = left stick, mouse = right stick, arrows = d-pad. While it's on, games see
 only the controller (KBM is blocked), so they stay in controller mode.
+
+**[Download the portable build](https://github.com/cgallizzi/stick-shift/releases/latest)**: unzip, run `StickShift.exe`, no install needed.
+
+![A fast mouse flick: the right stick is at full deflection and the turn-rate bar is red at the 400°/s limit, with 14° of carryover still to come](docs/overlay-aim.png)
+
+| Fine aim | Menu mode (PlayStation layout) |
+|---|---|
+| ![A slow mouse movement: the right stick sits just past the game's deadzone ring, turning at 38°/s](docs/overlay-fine.png) | ![Menu mode: the mouse is a normal mouse again, so the right stick is centred; d-pad down is lit and buttons use PlayStation names](docs/overlay-menu.png) |
+
+*The live demo overlay (F7). The top shot is a fast flick hitting the stick's speed limit, with the
+overflow carried over so the turn still lands. Bottom left is a small adjustment, lifted just past the
+game's deadzone so it isn't lost. Bottom right is menu mode, where the mouse works as a normal mouse.*
 
 > **Read first:** some multiplayer games (Call of Duty, Fortnite, Apex, …)
 > treat KBM pretending to be a controller like a XIM or Cronus device. That's

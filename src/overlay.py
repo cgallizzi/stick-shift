@@ -173,7 +173,10 @@ class Overlay:
             on = t["buttons"].get(b)
             cv.create_rectangle(*P(x, y, x + wch, y + 22), outline="",
                                 fill=GREEN if on else PANEL)
-            cv.create_text(*P(x + wch / 2, y + 11), text=text, font=f(8, True),
+            # Symbol glyphs (arrows, PS shapes) from Segoe UI Symbol: plain
+            # Segoe UI falls back to the color-emoji font for some of them.
+            font = f(8, True) if text.isascii() else ("Segoe UI Symbol", int(9 * s), "bold")
+            cv.create_text(*P(x + wch / 2, y + 11), text=text, font=font,
                            fill=BG if on else DIM)
             x += wch + 4
 
